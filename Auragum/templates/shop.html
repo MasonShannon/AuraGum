@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop – AuraGum™</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="AuraGum logo" class="logo">
+            <h1>AuraGum<span class="tm">&trade;</span></h1>
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/shop">Shop</a>
+            <a href="#about">Why AuraGum</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="shop">
+        <h2>Shop AuraGum™</h2>
+
+        <div class="product-card">
+            <h3>Aura Classic</h3>
+            <p>Natural mint. Biodegradable. Everyday freshness.</p>
+            <button disabled>Coming Soon</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Aura Boost</h3>
+            <p>With caffeine. Clean energy. No crash.</p>
+            <button disabled>Coming Soon</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Aura Athlete</h3>
+            <p>Electrolytes + vitamins. For performance & hydration.</p>
+            <button disabled>Coming Soon</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 AuraGum™. All rights reserved.</p>
+    </footer>
+</body>
+</html>

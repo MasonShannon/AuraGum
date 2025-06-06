@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraGum™ – Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="AuraGum logo" class="logo">
+            <h1>AuraGum<span class="tm">&trade;</span></h1>
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/shop">Shop</a>
+            <a href="#about">Why AuraGum</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Long-lasting flavor, fresh taste, no waste</h2>
+        <p>Good for you, great for the planet.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Gums</h2>
+        <div class="product">
+            <h3>Aura Classic</h3>
+            <p>Our everyday biodegradable mint gum made from natural chicle. Freshens breath and keeps flavor long without synthetic junk. Perfect for daily use, on-the-go freshness, and a plastic-free world.</p>
+        </div>
+        <div class="product">
+            <h3>Aura Boost</h3>
+            <p>Caffeinated gum with a clean, natural energy kick. Each piece has the same caffeine as a small cup of coffee. Great for study sessions, long drives, or whenever you need that extra push without crashing.</p>
+        </div>
+        <div class="product">
+            <h3>Aura Athlete</h3>
+            <p>Infused with electrolytes and vitamins to support hydration and recovery. Built for outdoor workouts, climbing, running, or anytime you’re sweating and need a recharge. Chew clean, feel strong.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Why AuraGum™</h2>
+        <p>Most chewing gums on the market are made with plastic-based ingredients that never break down — polluting sidewalks, oceans, and landfills. AuraGum™ is different.</p>
+        <p>We designed our gum to be fully biodegradable, using natural chicle instead of synthetic bases. Our packaging is minimal, compostable, and plastic-free from start to finish.</p>
+        <p>But we didn’t stop at sustainability. AuraGum™ is also functional — with options for energy, hydration, or just fresh breath. Clean ingredients, clean impact, clean gum.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Questions or ideas? Reach out to us:</p>
+        <ul>
+            <li>Mason Shannon – mason2003s@gmail.com</li>
+            <li>Andrew Scheffert – andrewscheffert@gmail.com</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 AuraGum™. All rights reserved.</p>
+    </footer>
+</body>
+</html>

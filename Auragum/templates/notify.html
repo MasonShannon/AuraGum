@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Notify Me - AuraGum</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Get Notified</h1>
+  <form method="POST">
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+    <button type="submit">Notify Me</button>
+  </form>
+  <p><a href="/">Back to Home</a></p>
+</body>
+</html>
